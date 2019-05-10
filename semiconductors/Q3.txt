@@ -1,0 +1,39 @@
+Answer both parts. Both parts carry equal marks.
+
+$$$
+(a) Discuss briefly with the aid of a diagram the Ewald sphere method of representing X-ray diffraction in a crystal. Explain why the lengths of the incident and scattered X-ray k-vectors are the same and explain the logic behind the particular location and orientation of the X-ray k-vectors with respect to the reciprocal lattice.
+
+Show with the aid of a diagram why the Ewald sphere diffraction condition (that the difference in wavevector between the incident and scattered wavevectors of X-rays (∆K) equals a crystal reciprocal lattice vector G) is equivalent to Bragg’s law for X-ray diffraction from a crystal (nλ = 2dSinθ).
+£££
+
+###
+
+
+$$$
+(b) The diagram below (2017) shows a θ−2θ scan of a thin (75 nm) epitaxial film of ZnO grown on a single crystal sapphire substrate (2 mm thick) with peaks at 34.42 degrees, 37.78 degrees and 80.69 degrees . Note that the y-axis is a logarithmic scale (i.e. “1” means an intensity of 10, “2” an intensity of 100 etc.). 
+Based on the θ−2θ scan below and the data in the angular range 30-40 degrees, determine which peak corresponds to the thin film and which to the substrate. 
+What are the inter-planar distances in the film and the substrate for these reflections?
+Identify if the reflection at 2θ > 70 degrees belongs to the film or the substrate and justify your answer. 
+Assume a 0.154 nm X-ray wavelength.
+£££
+
+###
+
+
+$$$
+(a) In the case of liquid phase epitaxy (LPE) draw a schematic diagram of the apparatus used to deposit epitaxial layers and explain briefly the method of operation of this deposition technique.
+£££
+
+###
+
+
+$$$
+(b) The diagram below (2015) shows two crystal lattices (crystal A is simple cubic (SC) and crystal B is face centred cubic, FCC). The upper two parts of the figure show the top layer of atoms in the (001) surface of the two crystals. The bottom diagram shows the interface layer when an epitaxial layer of crystal B grows on the crystal A substrate.
+
+What is the epitaxial relationship between the substrate and the epitaxial layer? What is the lattice mismatch between the two growing in this configuration?
+
+Discuss the effect of finite lattice mismatch on epitaxial growth of layers and mention the idea of critical thickness.
+£££
+
+###
+

@@ -1,0 +1,155 @@
+Answer any six (6) parts (8 given). All parts have equal value.
+
+$$$
+Distinguish clearly between homoepitaxy and heteroepitaxy in thin film growth and discuss the ideas of critical thickness, pseudomorphic growth and relaxed growth.
+£££
+
+###
+
+
+$$$
+Discuss briefly the two main processes leading to x-ray generation when a high energy (kilovolt) electron beam hits a sample surface and indicate which is most useful for imaging in a SEM.
+£££
+
+###
+
+
+$$$
+Discuss how the operation of a SEM in SE mode can be likened to the viewing of an illuminated scene by eye, in terms of the visible and hidden regions.
+£££
+
+###
+
+
+$$$
+Describe briefly, with a schematic diagram, the Czochralski process for bulk crystal growth. How is this process modified to deal with material with one volatile component?
+£££
+
+###
+
+
+$$$
+Bragg’s Law for x-ray diffraction (XRD) from a set of crystal planes is given below:
+
+nλ = 2dSin(θ)
+
+Explain the meaning of each term in this equation and show how it is derived.
+£££
+
+###
+
+
+$$$
+Discuss the necessity and purpose of a seed crystal in bulk crystal growth processes.
+£££
+
+###
+
+
+$$$
+Explain the term “exciton” and distinguish clearly between Frenkel and Mott-Wannier excitons in a semiconductor.
+£££
+
+###
+
+
+$$$
+You are told that the radiative recombination lifetime, τ_r , of an emitter centre in a semiconductor is 50 ns, independent of temperature. The non-radiative recombination lifetime, τ_nr , is given by the following empirical temperature-dependent relationship:
+
+τ_nr = 160 − 155(T/T+6)^2 (in ns)
+
+where T is the absolute temperature in K. What is the effective excited state emitter lifetime at 4.2 K, 77 K and 300 K?
+£££
+
+###
+
+
+$$$
+Why are substrates heated during epitaxial growth in a molecular beam epitaxy (MBE) system?
+£££
+
+###
+
+
+$$$
+Explain the concept of direct and indirect gap semiconductors. Draw schematic E-k band diagrams to illustrate your answer. Why are direct gap semiconductors preferred for optoelectronic applications?
+£££
+
+###
+
+
+$$$
+Discuss briefly the relative impact of lens aberrations and diffraction on the resolution limitation in an optical microscope and a transmission electron microscope (TEM).
+£££
+
+###
+
+
+$$$
+What modification of the standard Czochralski technique is needed to grow materials such as GaP, where one component of the compound (P) has a higher vapour pressure?
+
+What is this modification known as?
+£££
+
+###
+
+
+$$$
+Discuss briefly with the aid of a diagram how the process of selected area electron diffraction (SAED) in a transmission electron microscope (TEM) may be understood using the Ewald sphere concept.
+£££
+
+###
+
+
+$$$
+Discuss briefly the process of zone refining and the effects of the segregation coefficient on refined material.
+£££
+
+###
+
+
+$$$
+Explain briefly the terms pseudomorphic and relaxed growth for hetero-epitaxy.
+£££
+
+###
+
+
+
+$$$
+Why, typically, must substrates be heated during epitaxial growth?
+£££
+
+###
+
+
+$$$
+Explain briefly the concept of an exciton in a semiconductor material and distinguish between bound and free excitons. Under what conditions will excitons normally be observed?
+£££
+
+###
+
+
+$$$
+What is meant by the term "vapour pressure"? Why are relative vapour pressures of elements \
+important for the Czochralski growth of binary semiconductors, such as GaP?
+£££
+
+###
+
+
+$$$
+ArF (193 nm) laser ablation of graphite targets produces diamond-like films with a much higher sp^3:sp^2 binding fraction than KrF (248 nm) laser ablation. 
+Why?
+£££
+
+###
+
+
+$$$
+Explain the concept of direct and indirect bandgap semiconductors. Draw schematic E-k band diagrams to illustrate your answer. Why are direct gap semiconductors preferred for optoelectronic applications?
+£££
+
+###
+
+

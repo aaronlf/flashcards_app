@@ -1,0 +1,61 @@
+Answer both parts. Both parts carry equal marks.
+
+$$$
+(a) Discuss with the aid of a diagram how a transmission electron microscope (TEM) works, outlining briefly the principle of operation and electron optics. Discuss how electron diffraction images may be formed using a TEM in the selected area electron diffraction (SAED) mode. It is often stated, rather loosely, that the electron optics in a TEM are so poor compared to those of a light microscope, that the diffraction limit is not reached.
+
+Discuss this statement in detail, indicating the degree of truth you assign to the statement. 
+
+What factors limit the TEM ultimate resolution?
+£££
+
+###
+
+
+$$$
+(b) You are told that in a particular TEM the main factors influencing the spot size are spherical aberration and diffraction. The spot size on the sample due to spherical lens aberrations for an electron lens, d_SA, goes as:
+
+d_SA = (0.5)(C_S)(α^3)
+
+where C_s is the spherical aberration coefficient and α the acceptance angle of the objective lens. You are also told that the spot size on the sample, d_diff due to electron diffraction is:
+
+d_diff = 0.6(λ/α)
+
+where λ is the electron wavelength.
+
+Sketch a diagram showing roughly how these parameters vary with α. Show that the optimum value of α for best resolution, α_min, is given by:
+
+α_min = 0.9 (λ/C_S)^1/4
+
+and the minimum resolvable spot size, d total-min , is given by:
+
+d_(total−min) = 0.8( λ^(3/4) C_S^(1/4) )
+
+What values do these quantities take when λ = 2.7 pm and C_S = 1.25 mm?
+£££
+
+###
+
+
+$$$
+(a) Discuss the operation of a scanning electron microscope (SEM) with the aid of a diagram outlining briefly the principle and operation of one type of electron source, the electron optics and the method of image formation. Name at least two imaging modes in addition to the secondary electron mode.
+
+Explain with a brief physical argument why electron scattering from atomic nuclei is an elastic process to a high degree of accuracy. Discuss briefly the origin and characteristics of backscattered electrons and explain the main origin of the contrast in SEM images formed using backscattered electrons.
+£££
+
+###
+
+
+$$$
+(b) Discuss the origin and characteristics of secondary electrons and explain why SEM images formed using secondary electrons show topographic contrast. Derive the relationship between secondary electron signal and surface tilt for a compositionally uniform material:
+
+SE signal ∝ 1/cos(φ)
+
+where φ is the surface tilt angle with respect to the horizontal.
+
+A schematic cross-sectional slice of a substrate is shown below. Draw as best you can to scale the relative secondary electron signal from the different regions assuming the material is compositionally uniform across the entire extent.
+£££
+
+###
+
+
+

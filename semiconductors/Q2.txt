@@ -1,0 +1,56 @@
+Answer both parts. Both parts carry equal marks.
+
+$$$
+(a) What is Vegard’s law for the lattice constant of a ternary alloy semiconductor system (A_x)(B_1-x)(C), in terms of the lattice constants of the constituent binary compounds AC and BC and the molar fraction x? Assume that the bowing parameter is zero.
+
+Briefly justify this law on the basis of weighted averages of the constituent binary compounds.
+
+Explain the term “Virtual Crystal Approximation (VCA)” and briefly justify the use of Vegard’s law for ternary alloys on the basis of the VCA.
+
+On what two main physical premises is the suitability of the VCA to a given alloy system based?
+£££
+
+###
+
+
+$$$
+(b) A hypothetical ternary semiconductor alloy A_x B_1-x C has the following properties (where x is the molar fraction). At x=0, the bandgap is measured to be 1.4 eV, while at x=1 it is 3.1 eV. A plot of the bandgap energy as a function of x looks as follows with the absorption spectra of the material at x=0 and x=1 shown as inserts: (diagram given)
+
+Draw a schematic diagram of the bandstructure (E vs. k diagram) of the two compounds AC and BC and briefly justify your answer. What is the principal phonon energy of compound BC?
+£££
+
+###
+
+
+$$$
+(b) The direct conduction band minimum of GaAs lies 1.5eV above the valence band, while the indirect conduction band minimum lies 1.9eV above the valence band. For GaP, the indirect conduction band edge lies 2.2eV above the valence band, while the direct conduction band edge lies 2.9eV above the valence band edge.
+
+Assuming that the conduction band energies in the alloy material (GaAs_x)(P_1-x) are well described by Vegard’s Law with bowing parameter = 0, find the molar fraction x at which the alloy system changes from being a direct gap material to being an indirect gap material. What is the bandgap energy at this value of molar fraction x?
+£££
+
+###
+
+
+$$$
+(a) Pulsed laser deposition generally provides a stoichiometric (or congruent) transfer of material from the target to the substrate. Give 5 experimenal conditions that must be met if one wishes to ensure that a stoichiomentric transfer occurs for a mixed-element target.
+
+Explain your reasoning in each case.
+£££
+
+###
+
+
+$$$
+(b) During pulsed laser ablation of a mixed carbon-nickel target, it is found that 0.03% of the nickel is backscattered onto the target with each successive laser shot. If N_0 is the initial yield of nickel, and n is the number of laser shots, write down an expression that describes the nickel yield as a function of the number of laser shots. You may assume that all of the backscattered nickel is subsequently re-ablated. 
+
+If the initial C:Ni yield is 80:20 at%, what will be the relative yield after 2500 laser shots? You may assume the carbon yield remains constant with each shot.
+
+The figure below (2012) is a plot of the 'centre of mass' position, relative to the target (0 mm), of the carbon and nickel distributions in the plume as a function of time. The background gas is Ar at a pressure of 100 mT in the chamber.
+
+If the target-to-substrate distance is 60 mm and the C:Ni ratio in the plume is 58:42 at%, estimate the C:Ni ratio arriving at the substrate. You may assume that the carbon and nickel have perfectly spherical distributions, that the substrate is directly opposite the on-target laser spot, and that the substrate has an area of 1 cm^2.
+£££
+
+###
+
+
+
