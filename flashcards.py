@@ -45,12 +45,11 @@ def quiz(questions_and_answers,shuffle=False,reverse=False):
 
 if __name__ == '__main__':
 	
-	print(textwrap.fill('You should keep the paper open alongside this script as it shows useful equations (2017/2018)')+'\n')
 	print(textwrap.fill('Pressing [Enter] signifies a correct answer.\nAnything else signifies a wrong answer.')+'\n\n\n')
 
 	QUESTIONS_AND_ANSWERS_1 = find_questions_and_answers('Q1.txt')
-	
 	quiz(QUESTIONS_AND_ANSWERS_1,shuffle=True,reverse=False)
+	#etc.
 	
 	quit()
 
