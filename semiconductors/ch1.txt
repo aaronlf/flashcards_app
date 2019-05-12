@@ -1,0 +1,153 @@
+$$$
+Provide 3 coinciding factors of a material being defined as a semiconductor based on the electronic structure of said material.
+£££
+1. At low temperatures, in its pure, uncontaminated, undoped, stoichoimetric state, its VB is completely full with electrons and its CB is completely empty.
+
+2. The energy gap (bandgap) between the valence and conduction bands should be somewhere between 0 eV and ~ 3.5 eV (loosely defined upper limit).
+
+3. The conductivity can be significantly increased and controlled by the addition of rather small amounts (much less than 1%) of impurities (dopants) which introduce either electrons into the CB or holes into the VB.
+###
+
+
+
+$$$
+Give 2 phenomenological criteria of semiconductors.
+£££
+1. A semiconductor’s electrical resistivity should be in the range 10^{-2} Ωcm to 10^{9} Ωcm.
+
+2. A semiconductor’s electrical resistivity should decrease at higher temperatures, unlike a metal
+###
+
+
+
+$$$
+List 3 methods of bulk growth.
+£££
+1. Czochralski growth (most important method for growing a range of materials, including Si)
+
+2. Floating zone growth and zone refinement (FZ)
+
+3. Furnace or Bridgeman growth
+###
+
+
+
+$$$
+Outline the process of Czochralski growth for Si (an elemental semiconductor material)
+£££
+The molten Si (the melt) in the crucible condenses onto the seed which is rotated with respect to the melt (to get a uniformly circular boule of material) and drawn slowly out of the crucible so that a controlled freezing of the Si into a large single crystal is achieved.
+
+The bulk crystal orientation matches that of the seed.
+###
+
+
+
+$$$
+Provide a diagram describing the general layout of Czochalski growth for Si
+£££
+(SEE DIAGRAM)
+###
+
+
+
+$$$
+Describe what happens for Czochralski growth for a binary material such as GaAs
+£££
+Normally one of the components has a higher vapour pressure than the other. In the case of GaAs, As has a higher vapour pressure and tends to evaporate off the melt, leaving behind a non-stoichoimetric Ga-rich melt.
+
+This in turn generates a crystal with excess Ga, which is manifested as Ga interstitial and As vacancy defects, both of which are electrically active and act as unwanted native dopants in the crystal.
+###
+
+
+
+$$$
+What modification of the standard Czochralski technique is needed to grow materials such as GaAs, where one component of the compound (As) has a higher vapour pressure?
+£££
+The solution to this problem is to put an impervious molten layer above the melt and pressurize the space in the growth chamber to the vapour pressure of the most volatile component (As in this case), which prevents evaporation.
+
+This technique is known as liquid encapsulated Czochralski (LEC).
+###
+
+
+
+$$$
+What is meant by the term “vapour pressure”?
+£££
+Vapour pressure is defined as the pressure exerted by a vapour in thermodynamic equilibrium with its condensed phases (solid or liquid) at a given temperature in a closed system. The equilibrium vapour pressure is an indication of a liquid's evaporation rate. It relates to the tendency of particles to escape from the liquid. A substance with a high vapor pressure at normal temperatures is often referred to as volatile.
+###
+
+
+
+$$$
+What is a significant source of contamination with Czochralski growth?
+£££
+The melt is in direct contact with the crucible (often made of SiO_{2} or graphite)
+###
+
+
+
+$$$
+Outline the basic operation of floating zone growth
+£££
+In floating zone growth a slightly different method is utilized. One starts with a polycrystalline “feed” rod of the material which one wishes to make into a single crystal. At one end a seed crystal is placed. There is then a heater (which can move along the feed rod axis) encircling the feed rod, which can locally melt the feed rod. The feed rod rotates to ensure homogenous heating and melting.
+
+Beginning at the seed end one melts the nearby polycrystalline feed rod and then one tracks the heater up along the feed rod. As the heater moves up the molten region behind it solidifies and crystallizes, following the seed crystal’s structure. The next portion of the feed rod then melts and as the heater moves along gradually the entire feed rod is melted and re-crystallised to form a single crystal rod, whose orientation matches that of the seed (a floating hot zone, hence the name).
+###
+
+
+
+$$$
+Give a diagram of the floating zone growth technique
+£££
+(SEE DIAGRAM)
+###
+
+
+
+$$$
+Comment on the effect of contamination in the floating zone growth technique
+£££
+To compare with CZ growth in one important aspect, one can note that the molten zone is not in direct contact with any foreign material. Hence, crucible contamination is far smaller in this growth technique.
+
+Secondly, contamination is reduced still further by the effects of the segregation coefficient “k” (which is the ratio of impurity content in the solid to that in the molten material). In the important case of Si, the k value of most impurities is less than one.
+
+Thus in situations where molten liquid is in contact with the solid the impurity atoms will diffuse to the molten region as they “prefer” to be in the liquid. Hence as the heater passes up along the feed rod the impurities will tend to diffuse into, and remain trapped in, the moving molten region, and they are all swept to the top end of the rod, furthest from the seed. This highly impure end can then be removed to leave a highly pure single crystal.
+###
+
+
+
+$$$
+Comment on the quality of material produced by the FZ technique vs the CZ technique
+£££
+The quality of material produced by the FZ technique can be far higher than that grown by the CZ technique and this can be technologically important.
+###
+
+
+
+$$$
+Explain the operation of furnace or Bridgman growth
+£££
+In furnace or Bridgman growth, a seed crystal is placed in contact with a melt region of the material which one wishes to grow and a gradual cooling of the melt close to the seed leads to re-crystallisation and single crystal growth. The method is similar to CZ growth except that the material (both melt and solid) is kept completely inside the crucible during growth
+
+The seed and re-crystallised material are in contact with a fully molten charge (the raw material for growth). The seed and re- crystallised material are in contact with a local molten region which is then in contact with a solid charge (akin to FZ growth).
+
+The furnace tube may be vertical (where the crucible is replaced by an ampoule) or horizontal and either the crucible can move through multiple different temperature furnace zones to generate the temperature gradients required (Bridgman growth) or the crucible can remain stationary and the furnace temperature is ramped up and down in a controlled fashion to perform the growth (furnace growth).
+###
+
+
+
+$$$
+Comment on contamination with reference to the furnace/Bridgman growth technique
+£££
+Similar problems are encountered due to crucible contamination as in CZ growth, with the additional issue of potentially large thermal stresses in the growing crystal due to the contact of the crystal with the crucible/ampoule after re-crystallisation.
+
+This is because both the crystal and crucible may have different thermal expansion coefficients which come into play as the system heats and cools.
+###
+
+
+
+
+
+
+
+

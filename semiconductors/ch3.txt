@@ -1,0 +1,132 @@
+$$$
+What is alloying?
+£££
+To create a semiconductor with a specific lattice constant, effectively one must mix together different semiconductor components. This is called alloying.
+
+For example, if we alloy AlAs and GaAs, depending on the ratios, one would get Al_{x}Ga_{1-x}As, where x is the molar fraction.
+###
+
+
+
+$$$
+What is a random alloy?
+£££
+This is the chemical mix of two not-so random materials. Also 'random' due to the random probabilistic distribution of the type 3 constituents.
+###
+
+
+
+$$$
+What is the virtual crystal approximation?
+£££
+The VCA assumes that for an alloy such as Al_{x}Ga_{1-x}As, one may treat the structural, electronic and optical properties as being due to a perfectly regular crystal, with As on the usual group V site and the group III site occupied by an imaginary (virtual) atom whose properties are a weighted average of those of Ga and Al, weighted according to the molar fraction x.
+###
+
+
+
+$$$
+What is the expression for the potential due to the VCA?
+£££
+U_{VCA}(r)=xU_{AlAs}(r)+(1-x)U_{GaAs}(r)
+###
+
+
+
+$$$
+What are the two requirements for the virtual crystal approximation to hold?
+£££
+1. Based on the premise that the two constituent atoms are chemically similar. (Elements in the same group are chemically similar)
+
+2. The material's structural and optoelectronic properties are based on an average across the material.
+###
+
+
+
+$$$
+What is Vegard's law?
+£££
+For alloy materials, they can be described to a good approximation using Vegard's law, once the VCA is valid.
+
+If P(x) is some property of the alloy as a function of molar fraction x, then P(x) can be written as,
+
+P(x)=xP(1)+(1-x)P(2)
+where P(1) and P(2) are the properties of the two constituent alloys.
+
+Example:
+ 
+The bandgap of Al_{x}Ga_{1-x}Al is described as:
+E_{g}(Al_{x}Ga_{1-x}As)=xE_{g}(AlAs)+(1-x)E_{g}GaAs
+
+And similarly for the lattice constant:
+
+a_{(Al_{x}Ga_{1-x}As)}=xa_{(AlAs)}+(1-x)a_{GaAs}
+###
+
+
+
+$$$
+What are the differences between direct and indirect bandgap semiconductors?
+£££
+• Direct bandgap semiconductors are more efficient than indirect BG semiconductors for LEDs and laser diodes.
+
+• For a direct BG, the minimum of the CB has the same k value (crystal momentum) as the valence band maxima. In an indirect BG, this is not the case.
+
+• In a direct BG, the BG energy is lower than any other indirect BG.
+
+• In an indirect BG, at least one of the indirect bandgaps is lower energy than the direct bandgap energy.
+
+• Electrons congregate at the lowest E level possible, which leads to a predominant emission of light equal to that BG energy.
+###
+
+
+
+$$$
+Give an explanation for the effect of 'bowing' for Vegard's law in reference to energy bandgap
+£££
+Two effects associated with the bowing effect for energy bandgap:
+
+1. Intrinsic effects: Even when the VCA is used in calculating the bandgap, many calculations find the bandgap violation is not linear. This is due to a number of effects, e.g. atomic electronegativity.
+
+2. Extrinsic effects: In any finite volume of crystal there will be inherent statistical defects throughout the crystal leading to a different bandgap localised around a specific area. This causes local fluctuations of the measured value. If E_{g} is made over a small crystal volume, the measured E_{g} can have large deviation from \left\langle E_{g}\right\rangle .
+###
+
+
+
+$$$
+Why do lattice spacings obey Vegard's law better than energy bandgap measurements?
+£££
+In contrast to energy bandgap measurements, lattice spacings are measured using x-ray diffraction and are measured over a larger (macroscopic) volume. Therefore, measurements are less susceptible to error due to local deviations, etc.
+###
+
+
+
+$$$
+Provide a description of quaternaries
+£££
+These are alloys with more than 3 chemical constituents
+
+Example: In_{1-x}Ga_{x}As_{y}P_{1-y}
+
+In and Ga in group III, As and P in group V.
+
+The group III atoms will locate at the group III site, at a statistical probability of finding them at any particular site being either x or 1-x, respectively. The same can be said for the group V atoms.
+
+Following the same logic as with the ternary molecules:
+
+InAs=(1-x)(y)
+
+InP=(1-x)(1-y)
+
+GaAs=(x)(y)
+
+GaP=(x)(1-y)
+
+Hence, if P(x,y) is some property of the quaternary alloy that is a function of x,y, it can be written:
+
+P(x,y)=(x)(y)P(1,1)+(1-x)(y)P(0,1)+(1-y)(x)P(1,0)+(1-y)(1-x)P(0,0)
+
+where P(1,1) is the property of the constituent alloy with x,y=1.
+
+Note: Having the ability to have 4 constituents allows one to tune both the bandgap and lattice constant, as required.
+###
+

@@ -1,0 +1,196 @@
+$$$
+What is XRD used for?
+£££
+XRD uses x-rays to probe the structure of matter.
+
+Because x-ray wavelengths (~ 0.1 nm) are roughly similar to interatomic spacings in most crystals (~ 0.5 nm), strong diffraction effects are seen.
+
+The crystal structure and even the crystallite spacing and orientation in space can be determined using XRD.
+###
+
+
+
+$$$
+What is the expression for the intensity of scattered x-rays and what condition must be met?
+£££
+When the crystal contains very many unit cells, the terms with e^{i(G-K)r} oscillate about zero and contribute nothing to the integral except when G=K:
+
+integral(e^{i(G-K)r}dr)=
+	V, G=K
+	0, otherwise
+
+
+The intensity I(K) at such a condition is given by:
+
+I(K=G)\propto|\rho_{G}|^{2}The condition G=K is the key equation in x-ray diffraction of crystals. We represent it by a variety of graphical methods but one of the most common is the Ewald sphere.
+###
+
+
+
+$$$
+Provide a qualitative description of the Ewald Sphere
+£££
+The Ewald sphere is the surface, in reciprocal-space, that all experimentally-observed scattering arises from. (Strictly, only the elastic scattering comes from the Ewald sphere; inelastic scattering is so-called 'off-shell'.) A peak observed on the detector indicates that a reciprocal-space peak is intersecting with the Ewald sphere.
+
+• The Ewald sphere allows you to visualize a diffraction experiment.
+
+• Diffraction only occurs when a reciprocal lattice point intersects the Ewald sphere.
+
+• The diffracted beam will "travel" from the center of the Ewald sphere through the point where its reciprocal lattice point intersects the sphere.
+
+• The radius of the Ewald sphere is \frac{2\pi}{\lambda}.
+
+• The Ewald sphere construction is entirely equivalent to Bragg's diffraction law.
+###
+
+
+
+$$$
+Construct the Ewald sphere, declaring any assumptions made.
+£££
+1. The incident electron k-vector (K_{i}) magnitude defines the radius of the circle (K=\frac{2\pi}{\lambda}).
+
+2. The diffracted electron k-vector (K_{f}) must be the same length: elastic process.
+
+3. A circle is drawn of radius K.
+
+4. K_{i} is drawn as a arrow with tail at the centre and tip at circumference.
+
+5. The reciprocal lattice of the material is superimposed to scale and the (0,0,0) zone centre placed at the tip of K_{i}. The orientation of the reciprocal lattice is determined by the real orientation of the crystal with respect to the electron beam.
+
+6. Diffracted electrons can only occur at angles 2\theta, such that \Delta K=K_{f}\lyxmathsym{–}K_{i} are vectors of the material reciprocal lattice, i.e. where the circle “cuts” a reciprocal lattice point.
+
+The Ewald sphere is drawn below. Two different diagrams are provided in order to give a clearer uderstanding:
+
+(SEE DIAGRAM)
+
+A diagram of the diffraction as an interaction with the crystal interface is given below:
+
+(SEE DIAGRAM)
+###
+
+
+
+$$$
+From the Ewald sphere construction, show that Bragg's law holds
+£££
+The magnitudes of K_{i} and K_{f} are equal to K=\frac{2\pi}{\lambda}. And \Delta K=\frac{2\pi}{d}, corresponding to the spacing, d, between two points on the lattice, but in reciprocal space (wavenumber/momentum space).
+
+So we have,
+
+Ksin(theta)+Ksin(theta)	= Delta K
+2K\text{sin}\theta	= Delta K
+2(2pi/lambda)sin(theta)	= 2pi/d
+		lambda	= 2dsin(theta)
+###
+
+
+
+$$$
+What is the shape of the atomic form factor as a function of sin(theta)/lambda?
+£££
+In general the atomic form factor, f_{\alpha}, has a shape (as a function of \text{sin}(\theta)/\lambda) somewhat like the forms shown, for all atoms. Note that at \theta=0, the y-axis is just the atomic number, Z of the species.
+
+(SEE DIAGRAM)
+###
+
+
+
+$$$
+Give expressions for the structure factor, \boldsymbol{S_{G}}, and the scattering density, \boldsymbol{\rho}_{G}
+£££
+
+###
+
+
+
+$$$
+Give 4 uses for x-ray diffraction
+£££
+1. To determine the crystal structure of unknown crystalline phases
+
+2. To determine the orientation and lattice constants of known crystalline phases
+
+3. To determine the crystal quality of thin and bulk crystal phases
+
+4. To determine the relative orientation of e.g. a thin epitaxial crystalline film on a crystalline substrate
+###
+
+
+
+$$$
+List some prerequisites needed for x-ray diffraction
+£££
+For diffraction applications, a monochromatic x-ray source is needed.
+
+Generally one uses the stronger Kα characteristic line radiation.
+
+Clearly some filtering of the x-ray source is required to remove e.g. Kβ radiation and the bremmstrahlung continuum radiation.
+###
+
+
+
+$$$
+List the components of a thin film texture diffractometer and provide a diagram
+£££
+The x-ray diffractometer used in DCU is a so-called thin film texture diffractometer.
+
+It operates in a parallel beam geometry has a few main parts:
+
+1. X-ray source
+
+2. Goebel mirror collimator
+
+3. Sample mount and goniometer
+
+4. Detector
+
+The optics look more or less as below and the system is a parallel beam geometry:
+
+(SEE DIAGRAM)
+###
+
+
+
+$$$
+What is the purpose of a Goebel mirror?
+£££
+The purpose of the Goebel mirror is to collimate the divergent beam (effectively coming from a point-like source on the tube anode).
+
+The Goebel mirror is a multi-layer mirror with stacks of high and low Z materials alternating.
+
+By either bending the layers (generally into a section of a parabola, with the x-ray source at the parabola focus) or allowing the layer thicknesses to vary across the mirror surface one can cause a collimating action.
+
+(SEE DIAGRAM)
+###
+
+
+
+$$$
+The sample sits on a mount which allows its orientation to be altered – a goniometer.
+
+Depending on the number of degrees of freedom of this goniometer and the allowed movement of the source and/or detector the XRD system can be called a “one-circle” diffractometer, “two circle” etc.
+
+The DCU system is a “four-circle” diffractometer, a three circle goniometer plus a moveable detector.
+
+(SEE DIAGRAM)
+
+The ability to change χ, ω, φ and 2θ independently is why such systems are called “four circle”.
+£££
+
+###
+
+
+
+$$$
+How are the diffracted x-rays detected?
+£££
+The x-rays are detected by a scintillation detector (single photon detector) with a set of collimating slits in front of it (to remove any randomly scattered non-parallel x- rays).
+
+When the incident x-ray strikes the fluorescent crystal (scintillator) at the front of the detector a visible photon is produced.
+
+A photocathode struck by the photon ejects an electron.
+
+A series of dynodes after the scintillator/photocathode amplifies the electron into a detectable electrical pulse. (A dynode is an electrode in a vacuum tube that serves as an electron multiplier through secondary emission.)
+###
+

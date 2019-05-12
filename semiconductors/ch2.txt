@@ -1,0 +1,285 @@
+$$$
+Give 4 examples of thin film growth
+£££
+• MOS capacitor technology
+
+• Semiconductor diode lasers
+
+• Quantum wells and superlattices
+
+• Multi-layer x-ray mirrors
+###
+
+
+
+$$$
+Explain the term 'deposition' in reference to thin film growth
+£££
+This means that a layer is deposited without significantly interacting with the substrate. Examples would include evaporation of metals onto chemically inert substrates.
+###
+
+
+
+$$$
+Explain the term 'growth' in reference to thin film growth
+£££
+This means that layers are formed on a substrate with a significant chemical interaction with the substrate. An example would be the heating of Si wafers in an oxygen atmosphere to generate a reaction between the substrate and the oxygen to form a SiO 2 layer on the Si.
+###
+
+
+
+$$$
+What is epitaxial growth?
+£££
+It is the ordered growth of one crystal on another crystal in such a way that the orientations of the two crystals maintain a well defined relationship to each other (an epitaxial relation).
+###
+
+
+
+$$$
+What are the requirements for epitaxy?
+£££
+1. That the symmetry of the surface crystal planes of the film and substrate match.
+
+2. That the misfit between parallel lattice planes at the interface be less than ~ 15%. (good quality films require the misfit to be less than 1% typically)
+###
+
+
+
+$$$
+Give the equation to quantify lattice mismatch, giving the meaning of all terms.
+£££
+The lattice mismatch is given by,
+
+f=\frac{a_{e}-a_{s}}{a_{s}}
+
+where a_{s} and a_{e} represent the plane spacings along the in-plane direction of closest matching for the substrate and epitaxial layer, respectively.
+###
+
+
+
+$$$
+What is homoepitaxy?
+£££
+Homoepitaxy is the situation arising when an epitaxial film is grown on an identical substrate (e.g. Si on Si, GaAs on GaAs).
+
+There are no issues with lattice mtching and the film has zero strain.
+###
+
+
+
+$$$
+What is heteroepitaxy?
+£££
+Heteroepitxy is the situation arising when an epitaxial film is a different material to the substrate. Depending on the degree of mismatch, the epitaxial layer will be under varying degrees of strain.
+###
+
+
+
+$$$
+Describe the growth regime of pseudomorphic growth/commensurate growth/coherent epitaxy.
+£££
+When one begins heteroepitaxial growth, the thin epitaxial layer initially adjusts its lattice constants to match those of the substrate and is thus under strain if a mismatch is present.
+###
+
+
+
+$$$
+Describe the growth regime of relaxed growth/incommensurate growth
+£££
+As the film grows thicker, the strain energy builds up and at some critical thickness (related to the degree of mismatch), the strain energy is high enough to create crystal defects such as dislocations.
+
+The strain then relaxes and the film reverts to its equilibrium, bulk, lattice constant, and the interface between film and substrate shows the presence of defects such as misfit dislocations.
+###
+
+
+
+$$$
+Discuss the impact of temperature for simple deposition
+£££
+Even for simple deposition, with no strong bonding interaction between the film and substrate, if the temperature is too high, deposition won't occur (no condensation occurs on a hot window).
+
+If the temperature is too low a deposited film will bead up into little balls rather than form a film.
+
+The correct deposition temperature is generally found experimentally on the basis of many trials for a specific situation.
+###
+
+
+
+$$$
+Discuss the impact of temperature for epitaxial growth
+£££
+In order to enable deposited atoms on the substrate to find their correct, equilibrium, lattice location, the deposition temperature must be high enough to allow them to diffuse around upon hitting the surface (remember they’ll hit the surface initially at random locations).
+
+However, the temperature generally shouldn’t be too high to reduce the ad-atom* dwell time, or to cause destruction of the film or alloying with the substrate (unless this is what is specifically desired).
+###
+
+
+
+$$$
+What is an ad-atom?
+£££
+An ad-atom/adsorbed atom is an atom which has landed on and stuck to the surface, which is free to diffuse around, but has not bonded into the growing film yet.
+###
+
+
+
+$$$
+What is the general temperature epitaxial growth occurs at?
+£££
+Generally epitaxial growth takes place in the range 400 C upwards. A good rule of thumb is that a growth temperature of at least half the melting temperature of the film is required to enable ad-atom diffusion. If chemical reactions need to occur then even higher temperatures may be required.
+###
+
+
+
+$$$
+Give 5 examples of common epitaxial growth techniques
+£££
+1. Liquid phase epitaxy (LPE)
+
+2. Vapour phase epitaxy (VPE)
+
+3. Molecular beam epitaxy (MBE)
+
+4. Pulsed laser deposition (PLD)
+
+5. Whisker and nanorod/nanowire growth
+###
+
+
+
+$$$
+Describe liquid phase epitaxy (LPE)
+£££
+The LPE system consists of various molten regions (melts) which contain supersaturated concentrations of the elements making up the material one wishes to grow.
+
+The basic procedure is to keep the As-rich Ga melt above the solubility temperature (which is much less than the GaAs melting temperature, due to eutectic-type effects) for the majority of the time. When the GaAs wafer is brought underneath the melt, the melt is cooled below the solubility temperature, T_{U}, but kept above T_{L}. GaAs then precipitates out onto the substrate to form a thin (in this case homoepitaxial) layer.
+
+To stop the growth the temperature is brought back up above T_{U} . The wafer can then be slid across under the second melt, which could be an As-rich molten Al-Ga alloy. The same procedure of heating and cooling will lead to the growth of a thin AlGaAs layer on the previously grown GaAs layer. In this way multiple layers may be grown. The ratio of Al to Ga in the grown layer is controlled by the Al/Ga ratio in the melt, but will not necessarily be identical to this ratio (lots of complicated thermodynamics here...).
+
+The layers may be electrically doped by adding in small quantities of the dopant element into the melt.The details of the growth are complicated and the heating/cooling rates are important, as are convection currents and diffusion effects in the melt. Typical growth temperatures are in the range 550–850 C, as this temperature is required to maintain the melt.
+###
+
+
+
+$$$
+Describe vapour phase epitaxy (VPE)
+£££
+The basic process of VPE involves the delivery of atoms to the surface from the gas phase. VPE and its variants (such as metal-organic VPE, or MOVPE) is one of the most common and widely used methods of growing high quality epitaxial layers of a variety of semiconductor materials. It is called chemical vapour deposition, or CVD, when used for deposition rather than growth or epitaxy.
+
+A schematic diagram of a VPE system is shown below, for the case of growth on GaAs substrates.
+
+(SEE DIAGRAM)
+
+Gases for the main growth materials and the dopants are introduced using precise mass flow controllers (MFCs) and are generally mixed prior to entry into the growth chamber. The growth chamber may be under vacuum, though this is generally not a high or ultra-high vacuum.
+
+The gases will react in the heated growth chamber (furnace), in most cases heterogeneously (i.e. at the heated substrate, rather than in the gas phase away from the substrate) and a deposited layer of material will grow.
+
+Depending on the material to be grown, a wide variety of gases, growth temperatures, pressures and gas flow rates are used. These are generally determined and optimized empirically. The thermodynamics, kinetics and chemistry of the reactions are very complicated in many cases as large molecules are being split and the behaviour of the fragments can dominate the overall reaction progress.
+###
+
+
+
+$$$
+What is the typical growth temperature of VPE?
+£££
+Typical growth temperatures are in the range 800–1000 C, as this temperature is required to maintain most of the reactions required for growth. However, the high growth temperature does lead to inter-diffusion of layers and slightly diffuse interfaces.
+###
+
+
+$$$
+Describe molecular beam epitaxy (MBE)
+£££
+In MBE the atoms are delivered to the surface by molecular beams generated in effusion cells (basically ovens called Knudsen or K-cells). Atoms from the effusion cells travel into an ultra-high vacuum (UHV; < 10 -11 mbar) towards the substrate. Hence they travel ballistically (no scattering) to the substrate in straight lines.
+
+The stream of atoms can be controlled by fast acting shutters in front of the K-cells. The atom density in the stream is controlled by the K-cell temperature.
+###
+
+
+
+$$$
+What is the substrate temperature like for MBE?
+£££
+The substrate temperature is generally in the ~400-500 C regime as there is no need to maintain a melt or a chemical reaction of gases and the thermal energy is only that needed for ad-atom diffusion.
+
+(SEE DIAGRAM)
+###
+
+
+
+$$$
+Discuss the quality of MBE. Comment on where this technique would be mainly used.
+£££
+One can grow very thin and perfect layers and multi-layers with very sharp interfaces using MBE. This is because:
+
+(a) the growth rate can be controlled very closely, down to single monolayer levels
+
+(b) the low growth temperatures prevent interlayer diffusion
+
+However, MBE is very expensive technique to develop and maintain, due to the high costs of operating and servicing UHV systems. For this reason MBE is often a growth technique found in research labs rather than fabrication facilities.
+###
+
+
+
+$$$
+Describe pulsed laser deposition (PLD)
+£££
+Pulsed laser deposition is a technique rather similar to MBE, with the main difference that instead of K-cell sources, the source is a plasma of the various chemical species required for growth. This plasma is generated by focusing a high power pulsed laser (e.g. UV excimer or frequency multiplied Nd-YAG) on a target (e.g. for ZnO growth one often uses either a Zn metal target or a compacted ZnO target).
+
+(SEE DIAGRAM)
+
+The plasma expands into a low pressure (generally <10^{-4} mbar) atmosphere of the more volatile component (e.g. in the case of ZnO, an oxygen gas atmosphere). The reactive plasma and surrounding gas then condense on the substrate and by suitable choice of conditions can be made to form a thin film, and this will be an epitaxial film if the substrate and substrate temperature are suitable.
+
+Once again one can grow very thin and perfect layers and multi-layers with very sharp interfaces using PLD.
+###
+
+
+
+$$$
+What is the substrate temperature of PLD?
+£££
+Once again, like MBE, the substrate temperature is generally in the ~400-500 C regime as there is no need to maintain a melt or a chemical reaction of gases and the thermal energy is only that needed for ad-atom diffusion. The plasma bombardment of ad-atoms which increases their diffusion can allow even lower growth temperatures to be used than in equivalent MBE systems.
+###
+
+
+
+$$$
+Compare PLD to other techniques.
+£££
+PLD is less expensive to develop and maintain than MBE as UHV systems are not always required, PLD systems generally use high vacuum (HV).
+
+PLD can be used to grow thin films of highly refractory (high melting point) materials, which cannot be grown by any other techniques. In addition highly stoichoimetric materials can be grown as the laser evaporation/ablation tends to lead to a stoichoimetric plasma plume. The plasma is highly reactive chemically with many different ionized species/clusters, so unusual growth regimes can be reached.
+###
+
+
+
+$$$
+Comment on the purity of PLD samples
+£££
+However, the purity of the samples grown by PLD is often less than those grown by MBE because of the lower vacuum and also the purity of the compacted target materials is often poor. For this reason PLD is often a growth technique found in research labs working on exotic materials rather than fabrication facilities.
+###
+
+
+
+$$$
+Describe whisker and nanorod/nanowire growth
+£££
+Growth of 1-D structures at the nano scale (diameters ~ 100nm) can also be useful and is becoming an important topic of research. The additional confinement of carriers can improve device functionality, and these 1-D structures can serve as tiny electrical interconnects and optical interconnects.
+
+In addition, because these nanostructures have a small “footprint” on a substrate, they do not suffer from the problem of incommensurate, relaxed, growth with attendant crystal defects because the strain energies are much less in the small structure. This means that such structures can be highly structurally perfect, even on mismatched substrates where a thin film would be high defective. These nanostructures can then be used in very efficient devices, or as field emission electron sources due to their high aspect ratio.
+###
+
+
+
+$$$
+Comment on the shape of nanorods/whiskers.
+£££
+Generally materials which grow as nanorod/nanowire/whisker shapes are uniaxial. They have one direction along which the crystal properties are different. For example, ZnO is a hexagonal material.
+
+Thus growth along the c-axis (z-direction) is very different to growth along the x- and y-axes. The growth along the c-axis is generally must faster than along the side directions.
+
+Another example of a uniaxial material where interesting anisotropic shapes appear is water, specifically the hexagonal crystalline form of ice which compose snowflakes.
+
+However, in the case of ZnO nanostructures we are really only beginning to understand the growth mechanisms and the science behind the growth. Additionally, we are only beginning to scratch the surface of the possible application areas.
+###
+
