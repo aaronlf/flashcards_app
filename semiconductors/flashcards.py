@@ -5,7 +5,7 @@ import textwrap
 
 
 def find_questions_and_answers(filename):
-	with open(filename) as f:
+	with open(filename,encoding="utf8") as f:
 		entire_text = f.read()
 	questions = re.findall(r'\$\$\$\n(.+?)\n£££', entire_text,re.DOTALL)
 	answers = re.findall(r'£££\n(.+?)###', entire_text,re.DOTALL)
