@@ -1,5 +1,4 @@
 # Flashcards app for rote learning 
-### Aaron Lalor-Fitzpatrick
 
 To use, have answers filled out in text files. For chapters (notes), these are done already. There are also text files for the questions that come up over the years which need to be filled in (if anyone wants to contribute let me know I'm still working on this myself)
 Comment out calls to quiz on topics/questions you  are not interested in (found from line 51 onwards).
