@@ -45,11 +45,27 @@ def quiz(questions_and_answers,shuffle=False,reverse=False):
 
 if __name__ == '__main__':
 	
+	print(textwrap.fill('You should keep the paper open alongside this script as it shows useful equations (2017/2018)')+'\n')
 	print(textwrap.fill('Pressing [Enter] signifies a correct answer.\nAnything else signifies a wrong answer.')+'\n\n\n')
 
 	QUESTIONS_AND_ANSWERS_1 = find_questions_and_answers('Q1.txt')
-	quiz(QUESTIONS_AND_ANSWERS_1,shuffle=True,reverse=False)
-	#etc.
+	QUESTIONS_AND_ANSWERS_2 = find_questions_and_answers('Q2.txt')
+	QUESTIONS_AND_ANSWERS_3 = find_questions_and_answers('Q3.txt')
+	QUESTIONS_AND_ANSWERS_4 = find_questions_and_answers('Q4.txt')
 	
+	CHAPTER_1 = find_questions_and_answers('ch1.txt')
+	CHAPTER_2 = find_questions_and_answers('ch2.txt')
+	CHAPTER_3 = find_questions_and_answers('ch3.txt')
+	CHAPTER_5 = find_questions_and_answers('ch5.txt')
+	
+	quiz(QUESTIONS_AND_ANSWERS_1,shuffle=False,reverse=False)
+	quiz(QUESTIONS_AND_ANSWERS_2,shuffle=False,reverse=False)
+	quiz(QUESTIONS_AND_ANSWERS_3,shuffle=False,reverse=False)
+	quiz(QUESTIONS_AND_ANSWERS_4,shuffle=False,reverse=False)
+	quiz(CHAPTER_1,shuffle=False,reverse=False)
+	quiz(CHAPTER_2,shuffle=False,reverse=False)
+	quiz(CHAPTER_3,shuffle=False,reverse=False)
+	quiz(CHAPTER_5,shuffle=False,reverse=False)
+
 	quit()
 
