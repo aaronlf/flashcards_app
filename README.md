@@ -5,5 +5,8 @@ Comment out calls to quiz on topics/questions you  are not interested in (found 
 
 You can shuffle the flashcard decks by putting shuffle=True and they can be reversed by putting reverse=True. By default these are true, and the paramters have been explicitly called for easy editing.
 
+### Make sure you have the text files in the same directory.
+### Make sure you install 'textwrap'. Use: pip install textwrap3
+
 Good luck!
 
