@@ -27,19 +27,21 @@ def quiz(questions_and_answers,shuffle=False,reverse=False):
 	for i,q_a in enumerate(questions_and_answers):
 		lines = q_a[0].splitlines()
 		for l in lines:
-			print(textwrap.fill(l) + '\n')
+			print(textwrap.fill(l))
 		right_wrong = input()
-		print('\n')
 		if right_wrong == '': #correct condition
 			corrects += 1
 		else:
 			wrongs += 1
 			updated_questions_and_answers.append(q_a)
 			if q_a[1] != '\n': # If there is correct answer to reference in the text file
-				print('The correct answer is:\n' + textwrap.fill(q_a[1]) + '\n\n\n')
 				lines = q_a[1].splitlines()
+				print('THE CORRECT ANSWER IS:\n')
 				for l in lines:
-					print(textwrap.fill(l) + '\n')	
+					print(textwrap.fill(l))	
+		print('\n')
+		print('---------------------------------------------------------')
+		print('\n')
 	print('\nCorrect Answers: {}/{}\nIncorrect Answers: {}/{}\n\n'.format(corrects,total,wrongs,total))
 	if wrongs == 0:
 		print('You have successfully answered all of the flashcards correctly!')
