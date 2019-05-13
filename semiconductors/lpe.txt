@@ -1,0 +1,33 @@
+$$$
+In the case of liquid phase epitaxy (LPE) draw a schematic diagram of the apparatus used to deposit epitaxial layers.
+£££
+(SEE DIAGRAM)
+###
+
+
+
+$$$
+Explain briefly the method of operation of the deposition
+technique of liquid phase epitaxy (LPE).
+£££
+Liquid-phase epitaxy (LPE) is a method to grow semiconductor crystal layers from the melt on solid substrates. This happens at temperatures well below the melting point of the deposited semiconductor. The semiconductor is dissolved in the melt of another material.
+
+The LPE system consists of various molten regions (melts) which contain supersaturated concentrations of the elements making up the material one wishes to grow.
+
+The basic procedure is to keep the As-rich Ga melt above the solubility temperature (which is much less than the GaAs melting temperature, due to eutectic-type effects) for the majority of the time. When the GaAs wafer is brought underneath the melt, the melt is cooled below the solubility temperature, T_{U}, but kept above T_{L}. GaAs then precipitates out onto the substrate to form a thin (in this case homoepitaxial) layer.
+
+To stop the growth the temperature is brought back up above T_{U} . The wafer can then be slid across under the second melt, which could be an As-rich molten Al-Ga alloy. The same procedure of heating and cooling will lead to the growth of a thin AlGaAs layer on the previously grown GaAs layer. In this way multiple layers may be grown. The ratio of Al to Ga in the grown layer is controlled by the Al/Ga ratio in the melt, but will not necessarily be identical to this ratio (lots of complicated thermodynamics here...).
+
+The layers may be electrically doped by adding in small quantities of the dopant element into the melt.The details of the growth are complicated and the heating/cooling rates are important, as are convection currents and diffusion effects in the melt. Typical growth temperatures are in the range 550–850 degrees C, as this temperature is required to maintain the melt.
+###
+
+
+
+
+$$$
+Discuss the effect of finite lattice mismatch on epitaxial growth of layers and mention the idea of critical thickness.
+£££
+
+###
+
+

@@ -1,0 +1,81 @@
+$$$
+Discuss the operation of an SEM with the aid of a diagram.
+£££
+
+###
+
+
+
+$$$
+Briefly outline the principle and operation of one type of electron source.
+£££
+
+###
+
+
+
+
+$$$
+Briefly outline the operation of electron optics of an SEM.
+£££
+
+###
+
+
+
+$$$
+Briefly outline the method of image formation in an SEM.
+£££
+
+###
+
+
+
+$$$
+Name at least two imaging modes in addition to the secondary electron mode.
+£££
+
+###
+
+
+
+$$$
+Explain with a brief argument why electron scattering from atomic nuclei is an elastic process to a high degree of accuracy.
+£££
+
+###
+
+
+
+$$$
+Discuss briefly the orgin and characteristic of backscattered electrons and explain the main origin of the contrast in SEM images formed using backscattered electrons.
+£££
+
+###
+
+
+
+$$$
+Discuss the origin and characteristics of secondary electrons and explain why the SEM images formed using secondary electrons show topographic contrast.
+£££
+
+###
+
+
+
+$$$
+Derive the relationship between econdary elextron signal and surface tilt for a compositionally uniform material:
+SE signal proportional to 1/cos(phi)
+...where phi is the surface tilt angle with respect to the horizontal.
+£££
+
+###
+
+
+
+$$$
+A schematic cross-sectional slice of a substrate is shown below (SEE DIAGRAM). Draw as best you can to scale the relative scattering secondary electron signal from the different regions, assuming the material is compositionally uniform across the entire extent.
+£££
+
+###
+

@@ -1,0 +1,62 @@
+$$$
+What is Vegard's law for the lattice constant of a ternry alloy semiconductor system A_x B_1-x C in terms of the lattice constants of the constituent binary compounds AC and BC and the molar fraction x? Assume the bowing parameter is 0.
+£££
+
+###
+
+
+
+$$$
+Explain the term "Virtual Approximation (VCA)" and briefly justify the use of Vegard's law for ternary alloys on the basis of the VCA.
+£££
+
+###
+
+
+
+
+$$$
+On what two main physical premises is the suitability of the VCA to a given alloy system based?
+£££
+
+###
+
+
+
+$$$
+For DIRECT bandgaps, what is the expression for the absorption coefficient as a function of photon energy?
+£££
+
+###
+
+
+
+$$$
+For INDIRECT bandgaps, what is the expression for the absorption coefficient as a function of photon energy?
+£££
+
+###
+
+
+
+$$$
+Give the expression for the incident photon energy for the phonon EMISSION channel.
+£££
+
+###
+
+
+
+$$$
+Give the expression for the incident photon energy for the phonon ABSORPTION channel.
+£££
+
+###
+
+
+
+$$$
+Why should the bowing parameter be non-zero for the bandgap of alloyed semiconductors?
+£££
+
+###
