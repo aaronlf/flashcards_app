@@ -3,28 +3,66 @@ Answer any six (6) parts (8 given). All parts have equal value.
 $$$
 Distinguish clearly between homoepitaxy and heteroepitaxy in thin film growth and discuss the ideas of critical thickness, pseudomorphic growth and relaxed growth.
 £££
+Homoepitaxy is the situation arising when an epitaxial film is grown on an identical substrate (e.g. Si on Si, GaAs on GaAs). There are no issues with lattice mtching and the film has zero strain.
 
+Heteroepitxy is the situation arising when an epitaxial film is a different material to the substrate. Depending on the degree of mismatch, the epitaxial layer will be under varying degrees of strain.
+
+When one begins heteroepitaxial growth, the thin epitaxial layer initially adjusts its lattice constants to match those of the substrate and is thus under strain if a mismatch is present.
+
+As the film grows thicker, the strain energy builds up and at some critical thickness (related to the degree of mismatch), the strain energy is high enough to create crystal defects such as dislocations.
+The strain then relaxes and the film reverts to its equilibrium, bulk, lattice constant, and the interface between film and substrate shows the presence of defects such as misfit dislocations.
 ###
 
 
 $$$
 Discuss briefly the two main processes leading to x-ray generation when a high energy (kilovolt) electron beam hits a sample surface and indicate which is most useful for imaging in a SEM.
 £££
+Bremmstralung: Deceleration of electrons in Coulombic field of nucleus. 
+- Almost elastic nature of this scattering means that the Bremmstralung signal is low.
+- Relatively independent of sample composition
+- Output spectrum is continuous
 
+Characteristic x-rays: X-ray emission via transitions between inner level electron shells of elements.
+- Dominant x-ray production source in many situations.
+- x-ray energies characteristic of sample composition --> allows elemental mapping of material.
+- Auger electrons also emitted (electron from higher energy level of same atom replaces lower-energy lost electon).
+
+Most useful for SEM: Characteristic x-rays.
+- Stronger x-ray source
+- More reliable
+- Known peaks for different materials
 ###
 
 
 $$$
 Discuss how the operation of a SEM in SE mode can be likened to the viewing of an illuminated scene by eye, in terms of the visible and hidden regions.
 £££
+SEM in SE mode:
+- Electrons which are ejected by primary beam with energies < 50 eV
+- Produced by interactions with the primary beam and weakly bonded conduction electrons in metals, or valence band electrons in semiconductors and insulators
+- One of the main species produced by the beam-sample interaction.
+- Scattered strongly by atoms in the sample, thus can only escape if very close to surface of the sample
+- < 5 nm for metals and ~ 10 nm for insulators and semiconductors
+- Offers highest resolution, limited by the beam probe size
+- Provides topographic contrast. Areas with different slopes produce differing amounts of SE's.
 
+Similar to vision of eye:
+- Variation of SE emission with surface slope causes a contrast rather like "normal" photographic contrast, which may be deceptive.
 ###
 
 
 $$$
 Describe briefly, with a schematic diagram, the Czochralski process for bulk crystal growth. How is this process modified to deal with material with one volatile component?
 £££
+The molten Si (the melt) in the crucible condenses onto the seed which is rotated with respect to the melt (to get a uniformly circular boule of material) and drawn slowly out of the crucible so that a controlled freezing of the Si into a large single crystal is achieved.
 
+The bulk crystal orientation matches that of the seed.
+
+(SEE DIAGRAM)
+
+The solution to this problem is to put an impervious molten layer above the melt and pressurize the space in the growth chamber to the vapour pressure of the most volatile component (As in this case), which prevents evaporation.
+
+This technique is known as liquid encapsulated Czochralski (LEC).
 ###
 
 
@@ -35,21 +73,44 @@ nλ = 2dSin(θ)
 
 Explain the meaning of each term in this equation and show how it is derived.
 £££
+- θ = angle of incidence of the x-ray beam with the sample.
+- d = distance between atomic layers in a crystal
+- λ = wavelength of the incident x-ray beam
 
+(SEE DIAGRAM AND CHECK DERIVATION)
 ###
 
 
 $$$
 Discuss the necessity and purpose of a seed crystal in bulk crystal growth processes.
 £££
-
+- Atoms which constitute the crystal composition are delivered in appropriate amounts to a small, rather perfect starting crystal. This is known as the seed.
+- The atoms condense on the seed, in a way* that continues the highly ordered crystalline structure of the seed, to grow a bulk crystal.
+(* by appropriatee choice of the experimental conditions)
+- All three main bulk crystal growth methods rely on a seed.
 ###
 
 
 $$$
 Explain the term “exciton” and distinguish clearly between Frenkel and Mott-Wannier excitons in a semiconductor.
 £££
+- An exciton is a bound state of an electron and a hole, which are attracted to eachother by the electrostatic force. 
+- They both orbit around their common centre of mass.
+- Created following the excitation of an electron from the valence band into the conduction band.
+- Excitons have a binding energy dependent on the material parameters (electron and hole effective masses, dielectric constant)
 
+Frenkel excitons:
+- Tightly bound
+- Often seen in highly ionic crystal with large carrier effective masses
+- Localised to one lattice site, and can only move by "hopping" to neighbouring sites
+- Large binding energy, radius ~ a (lattice spacing)
+
+Mott-Wannier (free) excitons:
+- Weakly bound
+- Found in opto- and micro- electronic semiconductors with small effective carrier masses
+- Can move and diffuse very freely
+- Small binding energy, radius >> a
+- Modelled by Bohr model
 ###
 
 
@@ -60,20 +121,46 @@ You are told that the radiative recombination lifetime, τ_r , of an emitter cen
 
 where T is the absolute temperature in K. What is the effective excited state emitter lifetime at 4.2 K, 77 K and 300 K?
 £££
+- Radiative recombination lifetime = τ_r
+- Non-radiative recombination lifetime = τ_nr
+- Total recombination rate = R = 1/τ_eff
+- Effective emitter lifetime = τ_eff
 
+USE EQUATION: 1/τ_eff = 1/r + 1/τ_nr
+###
+
+
+$$$
+Give the equation for quantum efficiency.
+£££
+eta_r = 1/(1+τ_r/τ_nr)
 ###
 
 
 $$$
 Why are substrates heated during epitaxial growth in a molecular beam epitaxy (MBE) system?
 £££
-
+- Atoms are delivered to the substrate by molecular beams generated in effusion cells.
+- Atoms travel in an ultra high vacuum towars the substrate, ballistically with zero scattering.
+- The substrate temperature is generally in the ~400-500 degrees C regime as there is no need to maintain a melt or a chemical reaction of gases and the thermal energy is only needed for ad-atom diffusion.
 ###
 
 
 $$$
 Explain the concept of direct and indirect gap semiconductors. Draw schematic E-k band diagrams to illustrate your answer. Why are direct gap semiconductors preferred for optoelectronic applications?
 £££
+Direct-gap semiconductors:
+- Maximum energy level of the valence band aligns with the minimum energy level of the conduction band in k-space
+- A direct recombination takes place with the release of the energy equal to the energy difference between the recombining electron.
+- Probability of radiative recombination is high
+- Efficiency factor is higher, hence preferred for optoelectronic applications.
+EXAMPLE: GaAs
+
+Indirect-gap semiconductors:
+- Maximum energy level of the VB and the minimum energy of the CB are misaligned in k-space.
+- Due to relative difference in k-value, only after both momenta align is there a recombination accompanied with the release of energy.
+- A phonon and a photon must both be involved in a transition from the VB top to the CB bottom.
+EXAMPLES: Si and Ge
 
 ###
 
@@ -81,29 +168,41 @@ Explain the concept of direct and indirect gap semiconductors. Draw schematic E-
 $$$
 Discuss briefly the relative impact of lens aberrations and diffraction on the resolution limitation in an optical microscope and a transmission electron microscope (TEM).
 £££
+(NOT 100% SURE ON THIS ANSWER)
+The resolution is determined by the probe beam diameter, which in turn is determined by the initial beam size at gun crossover point, electron diffraction, and aberrations in the electron beam.
+
+Aberrations:
+- Causes a blurring effect on the image seen through the microscope
+- Aberration effects can determine system performance
+- Harder to remove in electromagnetic lenses than in an optical system
+- To reduce aberration effects, an aperture is placed between the condenser and the objective lenses.
+
+Diffraction:
+- Causes a blurring effect
+- Limitation reduced by reducing the operating wavelength
 
 ###
 
-
-$$$
-What modification of the standard Czochralski technique is needed to grow materials such as GaP, where one component of the compound (P) has a higher vapour pressure?
-
-What is this modification known as?
-£££
-
-###
 
 
 $$$
 Discuss briefly with the aid of a diagram how the process of selected area electron diffraction (SAED) in a transmission electron microscope (TEM) may be understood using the Ewald sphere concept.
 £££
+- Used to get diffraction pattern from a selected area
+- An aperture is introduced at the intermediate lens plane, so that only a portion of the sample is effectively illuminated by the electron beam.
+- Length of the k-vector associated with the electron is far larger than the spacing between reciprocal lattice points.
 
+(SEE DIAGRAM)
 ###
 
 
 $$$
 Discuss briefly the process of zone refining and the effects of the segregation coefficient on refined material.
 £££
+(This is in reference to floating zone growth)
+- An already single crystalline rod can be used instead of a polycrystalline rod (e.g. a CZ-grown boule)
+- The FZ process then purifies the main portion of the boule, and the impure end region can be removed.
+- This process can be repeated a number of times to achieve a highly pure material.
 
 ###
 
@@ -111,7 +210,10 @@ Discuss briefly the process of zone refining and the effects of the segregation 
 $$$
 Explain briefly the terms pseudomorphic and relaxed growth for hetero-epitaxy.
 £££
+When one begins heteroepitaxial growth, the thin epitaxial layer initially adjusts its lattice constants to match those of the substrate and is thus under strain if a mismatch is present. This regime is called “pseudomorphic growth”.
 
+As the film grows thicker, the strain energy builds up and at some critical thickness (related to the degree of mismatch), the strain energy is high enough to create crystal defects such as dislocations.
+The strain then relaxes and the film reverts to its equilibrium, bulk, lattice constant, and the interface between film and substrate shows the presence of defects such as misfit dislocations.
 ###
 
 
@@ -119,37 +221,20 @@ Explain briefly the terms pseudomorphic and relaxed growth for hetero-epitaxy.
 $$$
 Why, typically, must substrates be heated during epitaxial growth?
 £££
+In order to enable deposited atoms on the substrate to find their correct, equilibrium, lattice location, the deposition temperature must be high enough to allow them to diffuse around upon hitting the surface (remember they’ll hit the surface initially at random locations).
 
+However, the temperature generally shouldn’t be too high to reduce the ad-atom dwell time, or to cause destruction of the film or alloying with the substrate (unless this is what is specifically desired).
 ###
 
 
 $$$
-Explain briefly the concept of an exciton in a semiconductor material and distinguish between bound and free excitons. Under what conditions will excitons normally be observed?
+What is meant by the term "vapour pressure"? Why are relative vapour pressures of elements important for the Czochralski growth of binary semiconductors, such as GaP?
 £££
+Vapour pressure is defined as the pressure exerted by a vapour in thermodynamic equilibrium with its condensed phases (solid or liquid) at a given temperature in a closed system. The equilibrium vapour pressure is an indication of a liquid's evaporation rate. It relates to the tendency of particles to escape from the liquid. A substance with a high vapor pressure at normal temperatures is often referred to as volatile.
 
-###
-
-
-$$$
-What is meant by the term "vapour pressure"? Why are relative vapour pressures of elements \
-important for the Czochralski growth of binary semiconductors, such as GaP?
-£££
-
-###
-
-
-$$$
-ArF (193 nm) laser ablation of graphite targets produces diamond-like films with a much higher sp^3:sp^2 binding fraction than KrF (248 nm) laser ablation. 
-Why?
-£££
-
-###
-
-
-$$$
-Explain the concept of direct and indirect bandgap semiconductors. Draw schematic E-k band diagrams to illustrate your answer. Why are direct gap semiconductors preferred for optoelectronic applications?
-£££
-
+In the case of GaAs, As has a higher vapour pressure and tends to evaporate off the melt, leaving behind a non-stoichoimetric Ga-rich melt.
+This in turn generates a crystal with excess Ga, which is manifested as Ga interstitial and As vacancy defects, both of which are electrically active and act as unwanted native dopants in the crystal.
+This can be resolved using a technique known as liquid encapsulated Czochralski (LEC) growth.
 ###
 
 
