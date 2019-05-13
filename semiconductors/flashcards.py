@@ -25,7 +25,9 @@ def quiz(questions_and_answers,shuffle=False,reverse=False):
 	total = len(questions_and_answers)
 	updated_questions_and_answers = []
 	for i,q_a in enumerate(questions_and_answers):
-		print(textwrap.fill(q_a[0]) + '\n')
+		lines = q_a[0].splitlines()
+		for l in lines:
+			print(textwrap.fill(l) + '\n')
 		right_wrong = input()
 		print('\n')
 		if right_wrong == '': #correct condition
@@ -35,6 +37,9 @@ def quiz(questions_and_answers,shuffle=False,reverse=False):
 			updated_questions_and_answers.append(q_a)
 			if q_a[1] != '\n': # If there is correct answer to reference in the text file
 				print('The correct answer is:\n' + textwrap.fill(q_a[1]) + '\n\n\n')
+				lines = q_a[1].splitlines()
+				for l in lines:
+					print(textwrap.fill(l) + '\n')	
 	print('\nCorrect Answers: {}/{}\nIncorrect Answers: {}/{}\n\n'.format(corrects,total,wrongs,total))
 	if wrongs == 0:
 		print('You have successfully answered all of the flashcards correctly!')
@@ -48,9 +53,9 @@ if __name__ == '__main__':
 	print(textwrap.fill('Pressing [Enter] signifies a correct answer.\nAnything else signifies a wrong answer.')+'\n\n\n')
 
 	QUESTIONS_AND_ANSWERS_1 = find_questions_and_answers('Q1.txt')
-	QUESTIONS_AND_ANSWERS_2 = find_questions_and_answers('Q2.txt')
-	QUESTIONS_AND_ANSWERS_3 = find_questions_and_answers('Q3.txt')
-	QUESTIONS_AND_ANSWERS_4 = find_questions_and_answers('Q4.txt')
+	QUESTIONS_AND_ANSWERS_LPE = find_questions_and_answers('lpe.txt')
+	QUESTIONS_AND_ANSWERS_VL = find_questions_and_answers('vegard.txt')
+	QUESTIONS_AND_ANSWERS_SEM = find_questions_and_answers('sem.txt')
 	
 	CHAPTER_1 = find_questions_and_answers('ch1.txt')
 	CHAPTER_2 = find_questions_and_answers('ch2.txt')
@@ -58,9 +63,9 @@ if __name__ == '__main__':
 	CHAPTER_5 = find_questions_and_answers('ch5.txt')
 	
 	quiz(QUESTIONS_AND_ANSWERS_1,shuffle=False,reverse=False)
-	quiz(QUESTIONS_AND_ANSWERS_2,shuffle=False,reverse=False)
-	quiz(QUESTIONS_AND_ANSWERS_3,shuffle=False,reverse=False)
-	quiz(QUESTIONS_AND_ANSWERS_4,shuffle=False,reverse=False)
+	quiz(QUESTIONS_AND_ANSWERS_LPE,shuffle=False,reverse=False)
+	quiz(QUESTIONS_AND_ANSWERS_VL,shuffle=False,reverse=False)
+	quiz(QUESTIONS_AND_ANSWERS_SEM,shuffle=False,reverse=False)
 	quiz(CHAPTER_1,shuffle=False,reverse=False)
 	quiz(CHAPTER_2,shuffle=False,reverse=False)
 	quiz(CHAPTER_3,shuffle=False,reverse=False)
